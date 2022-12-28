@@ -1206,7 +1206,7 @@ margin-right: 8px;
 .checkbox-policy:checked + .icon-checkbox{
    border-color: transparent;
    background-color:  #2196F3;
-   background-image: url(./images/icons.svg#icon-icon-check-1);
+   background-image: url("/images/icon-check.svg");
    background-size: contain;
    background-origin: border-box;
 }
