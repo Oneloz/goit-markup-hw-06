@@ -1137,6 +1137,7 @@ margin-right: 8px;
     background-color: #2196F3;
 }
 .textarea-style {
+    margin-top: 4px;
     width: 448px;
     height: 120px;
     left: 576px;
@@ -1172,7 +1173,7 @@ margin-right: 8px;
 .form-field-1 {
     display: flex;
     margin-left: 12px;
-    padding-top: 15px;
+    padding-top: 12px;
     padding-bottom: 30px;
 }
 .policy-label {
@@ -1257,7 +1258,9 @@ margin-right: 8px;
     letter-spacing: 0.03em;
     text-decoration: none;     
 }
-
+.sub {
+    margin-left: auto;
+}
 .social-sub-p {
     margin-top: 12px;
     margin-bottom:0px;
