@@ -984,12 +984,17 @@ margin-right: 8px;
 }
 
 .label-style {
- padding-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
 }
+
 .username-style {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -1042,10 +1047,10 @@ margin-right: 8px;
         text-decoration: none;
 }
 .form {
-    width: 445px;
-    margin-left: 41px;
-    margin-right: 39px;
-    display: inline-block;
+    width: 528px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 0px;
 }
 
 .form-field {
@@ -1067,6 +1072,7 @@ margin-right: 8px;
     height: 40px;
     left: 576px;
     top: 315px;
+    margin-top: 4px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 42px;
@@ -1089,7 +1095,7 @@ margin-right: 8px;
 
 .input-icon-name {
     position: absolute;
-    top: 104px;
+    top: 105px;
     left: 54px;
     display: inline-block;
     width: 18px;
@@ -1180,6 +1186,7 @@ margin-right: 8px;
     
 }
 .policy-details {
+    margin-left: 5px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -1206,7 +1213,7 @@ margin-right: 8px;
 .checkbox-policy:checked + .icon-checkbox{
    border-color: transparent;
    background-color:  #2196F3;
-   background-image: url("./images/icon-check.svg");
+   background-image: url("/images/icon-check.svg");
    background-size: contain;
    background-origin: border-box;
 }
@@ -1254,7 +1261,6 @@ margin-right: 8px;
 .social-sub-p {
     margin-top: 12px;
     margin-bottom:0px;
-    margin-right: 179px;
     font-weight: 700;
     font-size: 14px;
         line-height: 16px;
@@ -1324,6 +1330,10 @@ margin-right: 8px;
     margin-left: 10px;
 }
 
+.footer-list {
+    display: flex;
+}
+
 .logo-header-f {
     color: #ffff;
         font-weight: 700;
@@ -1333,11 +1343,10 @@ margin-right: 8px;
 }
 
 .socials-header {
-    display: flex;
+    display: block;
 }
 
 .adress-style {
-   margin-right: 95px;
     margin-top: 28px;
    margin-bottom: 12px;
     color: #ffff;
